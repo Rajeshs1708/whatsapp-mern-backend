@@ -85,5 +85,5 @@ app.post('/api/messages/new', (req, res) => {
 })
 
 //listen
-const port = process.env.PORT || 9000
-app.listen(port, () => console.log(`Listening on Localhost ${port}`))
+const PORT = process.env.PORT || 9000
+app.listen(PORT, () => console.log(`Listening on Localhost ${PORT}`))
